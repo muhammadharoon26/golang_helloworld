@@ -15,4 +15,10 @@ func main() {
 			break
 		}
 	}
+
+	// numbers := []int{1, 2, 3, 4, 5}
+	data := "Hello, world!"
+	for index, char := range data {
+		fmt.Printf("Index: %d, Value: %c\n", index, char)
+	}
 }
